@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Rubik", sans-serif;
+  color: #333;
+}
+
+a,
+li,
+button {
+  text-decoration: none;
+  list-style: none;
+  border: none;
+}
+
+/* GENERAL */
+
+.second-container {
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* TOP BANNER */
+.top-banner {
+  background-color: rgb(255, 115, 0);
+}
+
+.banner-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-box {
+  display: flex;
+}
+
+.call-us-text,
+.login,
+.signup {
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 1.3rem 0;
+  text-transform: uppercase;
+}
+
+.signup {
+  color: rgb(169, 40, 255);
+  margin-left: 1.3rem;
+}
+
+.call-text {
+  color: rgb(169, 40, 255);
+}
+
+/* NAVBAR */
+
+.nav-box {
+  background-color: #44444408;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 2rem 0;
+}
+
+.logo-text {
+  color: rgb(246, 160, 0);
+}
+
+.link-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link a {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #444;
+  padding: 1rem;
+}
+
+/* PATH */
+.path-text {
+  font-size: 1.3rem;
+  padding: 3.5rem 0;
+}
+
+/* CONTACT */
+
+.contact-title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+  color: rgb(246, 160, 0);
+  margin-bottom: 0.7rem;
+}
+
+.contact-text {
+  font-size: 1.4rem;
+  margin-bottom: 4rem;
+}
+
+/* CONTACT FORM */
+.contact-us-form-box {
+  display: flex;
+  gap: 5rem;
+}
+
+.contact-us-form,
+.reach-us-box {
+  width: 48%;
+}
+
+.contact-us-text,
+.reach-us-text {
+  font-size: 3rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgb(246, 160, 0);
+  padding-bottom: 0.8rem;
+  border-bottom: 0.7rem black solid;
+  margin-bottom: 1.7rem;
+}
+
+.input-name {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+  border-style: none;
+  background-color: #f1f1f1;
+}
+
+.phone-email-box {
+  display: flex;
+  justify-content: space-between;
+  height: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.input-phone,
+.input-email {
+  width: 49%;
+  height: 2.5rem;
+  border-style: none;
+  background-color: #f1f1f1;
+}
+
+.message {
+  display: block;
+  width: 100%;
+  height: 8rem;
+  margin-bottom: 2rem;
+  border-style: none;
+  background-color: #f1f1f1;
+}
+
+.submit-btn {
+  cursor: pointer;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+  color: #fff;
+  background-color: rgb(246, 90, 0);
+}
+.input-name,
+.input-phone,
+.input-email,
+.message {
+  padding: 1rem;
+}
+
+.address,
+.phone-number-bot,
+.fax-number-bot {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+.address {
+  margin-bottom: 1.5rem;
+}
+
+.fax-number-bot {
+  margin-bottom: 4rem;
+}
+
+.icons-img {
+  width: 3rem;
+  margin-right: 0.5rem;
+}
